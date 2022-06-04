@@ -1,0 +1,6 @@
+pip install djangorestframework
+pip install djangorestframework-jsonapi
+pip install django-filter
+pip install django-cors-headers
+
+python manage.py loaddata
