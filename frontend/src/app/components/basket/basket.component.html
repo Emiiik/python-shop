@@ -1,0 +1,11 @@
+<div class="product-box" *ngFor="let basketItem of basket; index as i;">
+  <img src="{{basketItem.attributes.img}}" width="150px"/>
+  <div class="description">
+    {{basketItem.attributes.name}}
+    <button (click)="removeFromBasket(i)">Remove</button>
+  </div>
+</div>
+<div *ngIf="basket.length">
+  <h3>Total: {{sum | number: '1.2-2'}} PLN</h3>
+  <button (click)="order()">Order</button>
+</div>

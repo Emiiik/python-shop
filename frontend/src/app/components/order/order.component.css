@@ -1,0 +1,16 @@
+label {
+  display: block;
+  padding: 5px;
+}
+
+label > span {
+  display: block;
+}
+
+button {
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+}

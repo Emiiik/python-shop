@@ -1,0 +1,27 @@
+img {
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h3 {
+  padding: 0;
+}
+
+.description {
+  display: inline-block;
+  padding: 10px 10px;
+  height: 80px;
+  width: calc(100% - 120px);
+}
+
+.product-box {
+  background: #f1f1f1;
+  margin: 10px 0;
+}
+
+button {
+  display: block;
+  float: right;
+  margin-top: 48px;
+}

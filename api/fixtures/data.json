@@ -4,7 +4,9 @@
     "pk": 1,
     "fields": {
       "name": "Product 1",
-      "description": "Product 1 description"
+      "description": "Product 1 description",
+      "img": "https://d.newsweek.com/en/full/1920025/cat-its-mouth-open.jpg?w=1600&h=1600&q=88&f=b7a44663e082b8041129616b6b73328d",
+      "price": 2.20
     }
   },
   {
@@ -12,7 +14,9 @@
     "pk": 2,
     "fields": {
       "name": "Product 2",
-      "description": "Product 2 description"
+      "description": "Product 2 description",
+      "img": "https://64.media.tumblr.com/71b06b25880a1042c9d93b0eafa52adf/e7a4acc3dbbdff6c-5a/s1280x1920/54c66dff2f70ab77c88d98029b392d2b7dc9f66d.png",
+      "price": 3.50
     }
   },
   {

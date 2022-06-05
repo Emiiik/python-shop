@@ -20,5 +20,6 @@ class ProductOrderViewSet(viewsets.ModelViewSet):
     queryset = ProductOrder.objects.all()
     serializer_class = ProductOrderSerializer
 
+
 def index(request):
-    return render(request,"shop/index.html",{})
+    return render(request, "shop/index.html", {})

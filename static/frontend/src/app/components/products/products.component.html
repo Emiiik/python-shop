@@ -1,0 +1,9 @@
+<div class="product-box" *ngFor="let product of products">
+  <img src="{{product.attributes.img}}" width="150px"/>
+  <div class="description">
+    <h3>{{product.attributes.name}}</h3>
+    {{product.attributes.description}}
+    <div>{{product.attributes.price | number: '1.2-2'}} PLN</div>
+    <button (click)="addToBasket(product)">Add to basket</button>
+  </div>
+</div>
